@@ -13,53 +13,132 @@
 </head>
 
 <body>
-
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
-            <ul class="center hide-on-med-and-down">
-                <li><a href="#" class="navbar-option">Home</a></li>
-                <li><a href="#" class="navbar-option">Projects</a></li>
-                <li><a href="#" class="navbar-option">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#" class="navbar-option">Home</a></li>
-        <li><a href="#" class="navbar-option">Projecs</a></li>
-        <li><a href="#" class="navbar-option">Contact</a></li>
-    </ul>
-
-    <div>
-        <h4 class="my-name">Abel Yemane</h4>
-        <h4 class="my-title">Junior Developer</h4>
-        <div class="about-me-container">
-            <div>
-                <p class="technical-skills"><strong>Technical skills:</strong> HTML, CSS, Javascript, jQuery, Bootstrap.</p>
-                <img class="home-page-img" src="static/images/about-me-img.png">
+    <section id="home">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+                <ul class="center hide-on-med-and-down">
+                    <li><a href="#home" class="navbar-option">Home</a></li>
+                    <li><a href="#projects" class="navbar-option">Projects</a></li>
+                    <li><a href="#contact" class="navbar-option">Contact</a></li>
+                </ul>
             </div>
-            <div class="about-me-info">
-                <h5>About me</h5>
-                <p>
-                    My name is Abel, and I am a Junior developer based in London. Prior to January 2020, I was working
-                    as a senior complaints handler within a fintech company based in Soho.</p>
+        </nav>
 
-                <p>Having always had an interest in web development, I took a course by Code Institute to be a Fullstack
-                    developer and along the way
-                    learned the basics of Javascript, jQuery, Python, Django, Flask, MongoDB and Git for version control.
-                    I completed this course in January 2021, and now want to focus on finding a developer role.
-                </p>
-                <p>I am also open to learning new technologies.</p>
-                </p>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#home" class="navbar-option">Home</a></li>
+            <li><a href="#projects" class="navbar-option">Projecs</a></li>
+            <li><a href="#contact" class="navbar-option">Contact</a></li>
+        </ul>
+
+        <div>
+            <h4 class="my-name">Abel Yemane</h4>
+            <h4 class="my-title">Junior Developer</h4>
+            <div class="about-me-container">
+                <div>
+                    <p class="technical-skills"><strong>Technical skills:</strong> HTML, CSS, Javascript, jQuery,
+                        Bootstrap.</p>
+                    <img class="home-page-img" src="static/images/about-me-img.png">
+                </div>
+                <div class="about-me-info">
+                    <h5>About me</h5>
+                    <p>
+                        My name is Abel, and I am a Junior developer based in London. Prior to January 2020, I was
+                        working
+                        as a senior complaints handler within a fintech company based in Soho.</p>
+
+                    <p>Having always had an interest in web development, I took a course by Code Institute to be a
+                        Fullstack
+                        developer and along the way
+                        learned the basics of Javascript, jQuery, Python, Django, Flask, MongoDB and Git for version
+                        control.
+                        I completed this course in January 2021, and now want to focus on finding a developer role.
+                    </p>
+                    <p>I am also open to learning new technologies.</p>
+                    </p>
+                </div>
+            </div>
+            <div class="github-linked-container">
+                <a href="https://github.com/Abelyem" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abel-yemane-905555131/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
-        <div class="github-linked-container">
-            <i class="fab fa-github"><a></a></i>
-            <i class="fab fa-linkedin-in"><a></a></i>
-        </div>
-    </div>
+    </section>
 
+    <section id="projects">
+        <h1> Projects</h1>
+
+        <div class="projects-flex-container">
+            <div class="the-revolution">
+                <h5>The Revolution</h5>
+
+                <img src="static/images/theRevolution.png" class="project-pg-image">
+                <p>A four page static site - first project I undertook at the start of my code institute course. Some
+                    bootstrap features also used to make the site mobile responsive.
+                </p>
+                <a class="btn-small" href="https://abelyem.github.io/the-revolution/" target="_blank">Live site</a>
+                <a class="btn-small" href="https://github.com/Abelyem/the-revolution" target="_blank">Github</a>
+            </div>
+
+            <div class="twitter-clone">
+                <h5>Twitter Clone</h5>
+
+                <img src="static/images/twitter-clone.png" class="project-pg-image">
+                <p>A four page static site - first project I undertook at the start of my code institute course. Some
+                    bootstrap features also used to make the site mobile responsive.
+                </p>
+                <a class="btn-small" href="https://twitter-clone-81e74.web.app/" target="_blank">Live site</a>
+                <a class="btn-small" href="https://github.com/Abelyem/twitter-clone" target="_blank">Github</a>
+            </div>
+
+            <div class="masked">
+                <h5>Masked</h5>
+
+                <img src="static/images/masked.png" class="project-pg-image">
+                <p>A four page static site - first project I undertook at the start of my code institute course. Some
+                    bootstrap features also used to make the site mobile responsive.
+                </p>
+                <a class="btn-small" href="https://masked-ms4.herokuapp.com/" targe="_blank">Live site</a>
+                <a class="btn-small" href="https://github.com/Abelyem/MS4" targe="_blank">Github</a>
+            </div>
+
+            <div class="book-den">
+                <h5>Book Den</h5>
+
+                <img src="static/images/book-den.png" class="project-pg-image">
+                <p>A four page static site - first project I undertook at the start of my code institute course. Some
+                    bootstrap features also used to make the site mobile responsive.
+                </p>
+                <a class="btn-small" href="https://project-ms3.herokuapp.com/" target="_blank">Live site</a>
+                <a class="btn-small" href="https://github.com/Abelyem/MS3-project" target="_blank">Github</a>
+            </div>
+
+            <div class="js-game">
+                <h5>Javascript Game</h5>
+
+                <img src="static/images/js-game.png" class="project-pg-image">
+                <p>A four page static site - first project I undertook at the start of my code institute course. Some
+                    bootstrap features also used to make the site mobile responsive.
+                </p>
+                <a class="btn-small" href="https://abelyem.github.io/js-game/" target="_blank">Live site</a>
+                <a class="btn-small" href="https://github.com/Abelyem/js-game" target="_blank">Github</a>
+            </div>
+
+            <div class="cocktail">
+                <h5>Cocktail Generator</h5>
+
+                <img src="static/images/cocktail-generator.png" class="project-pg-image">
+                <p>A four page static site - first project I undertook at the start of my code institute course. Some
+                    bootstrap features also used to make the site mobile responsive.
+                </p>
+                <a class="btn-small" href="https://abelyem.github.io/MSProject2/" target="_blank">Live site</a>
+                <a class="btn-small" href="https://github.com/Abelyem/MSProject2" target="_blank">Github</a>
+            </div>
+
+        </div>
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
