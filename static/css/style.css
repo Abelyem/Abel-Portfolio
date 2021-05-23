@@ -30,3 +30,55 @@ body {
     color: var(--gold-color);
     font-weight: 700;
 }
+
+/* About me container */
+
+.about-me-container {
+    color: #fff;
+    display: flex;
+    padding: 1rem 10rem;
+}
+
+.home-page-img {
+    width: 30vw;
+    height: 40vh;
+}
+
+.about-me-info > h5 {
+    color: var(--gold-color);
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.my-name, .my-title {
+    display: block;
+    padding-left: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.my-name {
+    color: var(--gold-color);
+}
+
+.my-title {
+    color: #fff;
+    margin-top: 0;
+}
+
+.technical-skills-and-image {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.technical-skills-and-image > h6 {
+    color: var(--gold-color);
+    font-weight: 500;
+
+}
+
+/* Container for social links - Github and LinkedIn */
+
+.github-linked-container {
+    display: flex;
+}
