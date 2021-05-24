@@ -205,9 +205,9 @@ nav {
 /* Contact Page */ 
 
 #contact {
-    color: var(--dark-blue-color);
+    color: var(--gold-color);
     text-align: center;
-    background-color: #fff;
+    background-color: var(--dark-blue-color);
 }
 
 
@@ -223,4 +223,24 @@ nav {
 .waves-light:hover {
     background-color: var(--dark-blue-color)!important;
     color: var(--gold-color);
+}
+
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea[type=text]:focus + label {
+    color: var(--gold-color) !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid var(--gold-color) !important;
+     box-shadow: 0 1px 0 0 var(--gold-color) !important;
+     color: var(--gold-color) !important;
+}
+
+.input-field textarea[type=text]:focus {
+     border-bottom: 1px solid var(--gold-color) !important;
+     box-shadow: 0 1px 0 0 var(--gold-color) !important;
+     color: var(--gold-color) !important;
 }
