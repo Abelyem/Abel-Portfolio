@@ -5,6 +5,7 @@
 
 body {
     background-color: var(--dark-blue-color);
+    box-sizing: border-box;
 }
 
 #home, #contact {
@@ -62,6 +63,8 @@ nav {
         display: block;
     }
 }
+
+
 
 .about-me-info > h5 {
     color: var(--gold-color);
@@ -141,6 +144,7 @@ nav {
 
 #projects {
     background: var(--gold-color);
+    margin-top: 10rem;
     padding-top: 1rem;
 }
 
@@ -201,8 +205,9 @@ nav {
 /* Contact Page */ 
 
 #contact {
-    color: var(--gold-color);
+    color: var(--dark-blue-color);
     text-align: center;
+    background-color: #fff;
 }
 
 
