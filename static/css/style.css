@@ -7,10 +7,16 @@ body {
     background-color: var(--dark-blue-color);
 }
 
-#home, #projects, #contact {
+#home, #contact {
+    height: 100vh;
+    width: 100vw;
+}
+
+#projects {
     height: 100%;
     width: 100%;
 }
+
 
 /* Navbar styling */
 
@@ -73,7 +79,7 @@ nav {
 .my-name {
     color: var(--gold-color);
     margin: 0;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 .my-title {
@@ -115,18 +121,19 @@ nav {
 
 /* Container for social links - Github and LinkedIn */
 
-.github-linked-container {
+.github-linkedin-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 5rem;
 }
 
-.github-linked-container > a {
+.github-linkedin-container > a {
     padding: 0 1rem;
     font-size: 3rem;
     color: var(--gold-color);
 }
 
-.github-linked-container > a:hover {
+.github-linkedin-container > a:hover {
     color: grey;
 } 
 
@@ -134,11 +141,12 @@ nav {
 
 #projects {
     background: var(--gold-color);
+    padding-top: 1rem;
 }
 
 #projects > h3 {
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0 1rem;
 }
 
 .projects-flex-container {
@@ -198,6 +206,16 @@ nav {
 }
 
 
-.fa-caret-right {
-    font-size: 1rem;
+#contact > h3 {
+    padding-top: 5rem;
+}
+
+
+.waves-light {
+    background-color: var(--gold-color)!important;
+} 
+
+.waves-light:hover {
+    background-color: var(--dark-blue-color)!important;
+    color: var(--gold-color);
 }
