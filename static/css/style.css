@@ -8,7 +8,8 @@ body {
 }
 
 #home, #projects, #contact {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 /* Navbar styling */
@@ -78,12 +79,24 @@ body {
     padding-left: 2rem;
 }
 
+ @media (max-width: 767.98px) { 
+    .my-name, .my-title, .technical-skills {
+        padding: 0;
+    }
+}
+
 .technical-skills > strong {
     color: var(--gold-color);
 }
 
 .home-page-img {
     height: 40vh;
+}
+
+@media (max-width: 575.98px) { 
+    .home-page-img {
+       height: 20vh;
+    }
 }
 
 
@@ -112,6 +125,11 @@ body {
     background: #fff;
 }
 
+#projects > h3 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
 .projects-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -124,8 +142,25 @@ body {
     padding-bottom: 5rem;
 }
 
+@media (max-width: 991.98px) { 
+    .projects-flex-container > * {
+        width: 40%;
+    }
+ }
+
+ @media (max-width: 767.98px) { 
+    .projects-flex-container > * {
+        width: 55%;
+        margin: auto;
+        display: inline-table;
+        border-bottom: 1px solid var(--dark-blue-color);
+    }
+  }
+
+
+
 .project-pg-image {
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .btn-small {
@@ -135,6 +170,11 @@ body {
 
 .btn-small:hover {
     background-color: var(--gold-color)!important;
-    color: var(--dark-blue-color)!important;
-   
+    color: var(--dark-blue-color)!important;   
+}
+
+ @media (max-width: 767.98px) { 
+    .btn-small {
+        margin:0 5px;
+    }
 }
