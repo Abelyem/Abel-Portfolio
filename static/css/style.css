@@ -244,3 +244,14 @@ nav {
      box-shadow: 0 1px 0 0 var(--gold-color) !important;
      color: var(--gold-color) !important;
 }
+
+
+.success-message {
+    padding-top: 7rem;
+    text-align: center;
+    color: var(--gold-color);
+}
+
+.success-message > * {
+    padding: 1rem;
+}
